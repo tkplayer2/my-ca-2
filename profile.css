@@ -1,0 +1,128 @@
+
+body {
+    background-image: url("images/white bg.jpg");
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+header{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+
+}
+
+ul li a{
+    padding: 0 20px;
+    text-decoration: none;
+    color: #3a3a3a;
+    display: inline-block;
+}
+li a::after{
+    content: '';
+    display: block;
+    height:4px;
+    width: 0;
+    background: #cf7429;
+    transition:all .5s
+}
+li a:hover::after{
+    width: 100%;
+}
+
+h1{
+    color: hwb(27 16% 19%);
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+
+}
+
+ul li b{
+    padding: 0 20px;
+    text-decoration: none;
+    color: #3a3a3a;
+    display: inline-block;
+}
+li b::after{
+    content: '';
+    display: block;
+    height:4px;
+    width: 0;
+    background: #cf7429;
+    transition:all .5s
+}
+li b:hover::after{
+    width: 100%;
+}
+
+.profile{
+    width: 100%;
+    padding: 100px 0px;
+
+}
+.profile img{
+    height: auto;
+    width: 430px;
+}
+.profile-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    transition: all.5s;
+
+}
+.profile-text h2{
+    color: black;
+    font: size 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.profile-text h3{
+    color: black;
+    letter-spacing: 2px;
+    font: size 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.profile-text p{
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+button{
+    background-color:#fcf;
+    color: white;
+    text-decoration: none;
+    border: 2px splid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: 4s;
+}
+button:hover{
+    background-colour: transparent;
+    background-color: #fcf;
+    border: 2px solid;
+    cursor: pointer;
+}

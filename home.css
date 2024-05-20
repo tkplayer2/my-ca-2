@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url("images/white bg.jpg");
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+header{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+
+}
+
+ul li a{
+    padding: 0 20px;
+    text-decoration: none;
+    color: #3a3a3a;
+    display: inline-block;
+}
+li a::after{
+    content: '';
+    display: block;
+    height:4px;
+    width: 0;
+    background: #cf7429;
+    transition:all .5s
+}
+li a:hover::after{
+    width: 100%;
+}
+
+ul li b{
+    padding: 0 20px;
+    text-decoration: none;
+    color: #3a3a3a;
+    display: inline-block;
+}
+li b::after{
+    content: '';
+    display: block;
+    height:4px;
+    width: 0;
+    background: #cf7429;
+    transition:all .5s
+}
+li b:hover::after{
+    width: 100%;
+}
+main{
+    display: flex;
+    height:calc(100vh - 100px);
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-img{
+    width: 950px;
+    height: 300px;
+    padding-left: 20%;
+    margin-left: 10%;
+}
+
+.content-left{
+    width: 100px;
+}
+
+.logo.png-removebg-preview.png{
+    max-width: 15px;
+    height: auto;
+}
+
+main h1{
+    font: size 40px;
+    color: lightgreen ;
+    text-transform: uppercase ;
+}
+main h2 {
+    font: size 25px;
+    color: orange;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+
+
+main p{
+    display: flex;
+    font: size 14px;
+    font-weight: 500;
+    color:#e68447;
+    line-height: 1.2;
+    margin: 30px 0;
+}
+
+sub p{
+    display: flex;
+    font-size: 12px;
+    font-weight: 700;
+    color: #333;
+    line-height: 1.5;
+    margin: 10px;
+}
+.cta{
+    padding: 15px 30px;
+    background: #c4c4f7
+    color(white);
+    outline:none;
+    border:
+    font-weight (700);
+    text-transform: uppercase;
+    border-radius: 50px
+
+}
+
+.signup-btn{
+    padding: 10px 20px;
+    background: #c4c4f7
+    color(white);
+    outline:none;
+    border:
+    font-weight (700);
+    text-transform: uppercase;
+    border-radius: 50px
+
+}
+
+.content-left p{
+float: left;
+display: flex;
+margin-left: 10%;
+}
+
+.content-right{
+    display: flex;
+    justify-content: flex-start;
+}
+
+html, 
+body { margin: 0; }
+
+#content { 
+  width: 960px;
+  margin: 0 auto;
+}
+
